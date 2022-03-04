@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
 FontName: YuFanXinYu-Medium
 FullName: YuFanXinYu-Medium
-FamilyName: YuFanXinYu
+FamilyName: YuFanXinYu-Medium
 Weight: Medium
 Copyright: Copyright (c) 2022, YuFan
 UComments: "2022-3-2: Created with FontForge (http://fontforge.org)"
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646206483
-ModificationTime: 1646400179
+ModificationTime: 1646403748
 PfmFamily: 81
 TTFWeight: 600
 TTFWidth: 5
@@ -45,7 +45,7 @@ OS2Vendor: 'PfEd'
 OS2CodePages: 00040001.00000000
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "YuFanXinYu-Medium" "Regular" "" "" "" "" "" "YuFan" "" "" "" "" "" "" "" "" "Medium"
+LangName: 1033 "" "" "Regular" "" "" "" "" "" "YuFan" "" "" "" "" "" "" "" "YuFanXinYu" "Medium"
 LangName: 2052 "" "+T1l+QWWwi+0A--Medium" "Regular" "" "+T1l+QWWwi+0A--Medium" "" "" "" "+T1l+QQAA" "" "" "" "" "" "" "" "+T1l+QWWwi+0A" "Medium"
 Encoding: UnicodeBmp
 UnicodeInterp: none

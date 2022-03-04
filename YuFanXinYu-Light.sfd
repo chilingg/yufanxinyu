@@ -1,7 +1,7 @@
 SplineFontDB: 3.2
 FontName: YuFanXinYu-Light
 FullName: YuFanXinYu-Light
-FamilyName: YuFanXinYu
+FamilyName: YuFanXinYu-Light
 Weight: Light
 Copyright: Copyright (c) 2022, YuFan
 UComments: "2022-3-2: Created with FontForge (http://fontforge.org)"
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646206483
-ModificationTime: 1646400178
+ModificationTime: 1646403748
 PfmFamily: 81
 TTFWeight: 300
 TTFWidth: 5
@@ -45,7 +45,7 @@ OS2Vendor: 'PfEd'
 OS2CodePages: 00040001.00000000
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "YuFanXinYu-Light" "Regular" "" "" "" "" "" "YuFan" "" "" "" "" "" "" "" "" "Light"
+LangName: 1033 "" "" "Regular" "" "" "" "" "" "YuFan" "" "" "" "" "" "" "" "YuFanXinYu" "Light"
 LangName: 2052 "" "+T1l+QWWwi+0A--Light" "Regular" "" "+T1l+QWWwi+0A--Light" "" "" "" "+T1l+QQAA" "" "" "" "" "" "" "" "+T1l+QWWwi+0A" "Light"
 Encoding: UnicodeBmp
 UnicodeInterp: none

@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1646206483
-ModificationTime: 1646400178
+ModificationTime: 1646403748
 PfmFamily: 81
 TTFWeight: 500
 TTFWidth: 5
@@ -45,7 +45,7 @@ OS2Vendor: 'PfEd'
 OS2CodePages: 00040001.00000000
 MarkAttachClasses: 1
 DEI: 91125
-LangName: 1033 "" "" "" "" "" "" "" "" "YuFan"
+LangName: 1033 "" "" "" "" "" "" "" "" "YuFan" "" "" "" "" "" "" "" "YuFanXinYu"
 LangName: 2052 "" "+T1l+QWWwi+0A" "Regular" "" "+T1l+QWWwi+0A--Regular" "" "" "" "+T1l+QQAA" "" "" "" "" "" "" "" "" "Regular"
 Encoding: UnicodeBmp
 UnicodeInterp: none
