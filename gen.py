@@ -4,6 +4,12 @@ import fontforge
 FONT_WIDTH = 720
 LITTLE_F_WIDTH = 360
 
+def start():
+    if os.path.exists('font'):
+        return
+    else:
+        os.mkdir('font')
+
 def importGlyph(path, file):
     font = fontforge.open(file)
     font.selection.all()
@@ -20,9 +26,15 @@ def importGlyph(path, file):
             code = ord(char)
             filepath = "%s/%s" % (path, filename)
             width = FONT_WIDTH
-            if(code < 128):
-                width = LITTLE_F_WIDTH
-                ascii += 1
+
+            if(filename[:-4].isdecimal()):
+                n = int(filename[:-4])
+                if(n < 128):
+                    code = n
+                    char = chr(code)
+                    width = LITTLE_F_WIDTH
+                    ascii += 1
+
             print("%s: import glyph '%s' %d from %s" % (font.fontname, char, code, filepath))
 
             glyph = font.createChar(code)
@@ -36,6 +48,7 @@ def importGlyph(path, file):
     font.save()
     font.close()
 
+start()
 importGlyph('svg/bold', 'YuFanXinYu-Bold.sfd')
 importGlyph('svg/regular', 'YuFanXinYu-Regular.sfd')
 importGlyph('svg/light', 'YuFanXinYu-Light.sfd')
