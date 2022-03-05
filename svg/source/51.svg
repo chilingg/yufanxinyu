@@ -2,6 +2,10 @@
 <!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 720 900" style="enable-background:new 0 0 720 900;" xml:space="preserve">
-<path d="M300,510h-90v-90c0-16.6-13.4-30-30-30s-30,13.4-30,30v90H60c-16.6,0-30,13.4-30,30s13.4,30,30,30h90v90
-	c0,16.6,13.4,30,30,30s30-13.4,30-30v-90h90c16.6,0,30-13.4,30-30S316.6,510,300,510z"/>
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M60,420c0-66.3,53.7-120,120-120s120,53.7,120,120s-53.7,120-120,120h-60"/>
+<path class="st0" d="M300,720c0,66.3-53.7,120-120,120S60,786.3,60,720"/>
+<path class="st0" d="M120,540c99.4,0,180,80.6,180,180"/>
 </svg>

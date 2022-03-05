@@ -5,7 +5,7 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-miterlimit:10;}
 </style>
-<circle class="st0" cx="120" cy="420" r="60"/>
-<circle class="st0" cx="240" cy="780" r="60"/>
-<line class="st0" x1="300" y1="420" x2="60" y2="780"/>
+<circle class="st0" cx="120" cy="360" r="60"/>
+<circle class="st0" cx="240" cy="720" r="60"/>
+<line class="st0" x1="300" y1="360" x2="60" y2="720"/>
 </svg>
