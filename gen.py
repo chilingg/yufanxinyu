@@ -32,7 +32,8 @@ def importGlyph(path, file):
                 if(n < 128):
                     code = n
                     char = chr(code)
-                    width = LITTLE_F_WIDTH
+                    if(code != 64):
+                        width = LITTLE_F_WIDTH
                     ascii += 1
 
             print("%s: import glyph '%s' %d from %s" % (font.fontname, char, code, filepath))
