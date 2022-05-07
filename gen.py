@@ -41,9 +41,11 @@ def genGlyphFromPath(filepath, savePath, strokeWidth):
     for child in root:
         tag = svgfile.unPrefix(child.tag)
         if tag != 'style':
-            shape = bezierShape.BezierShape()
-            shape.extend(bezierShape.createPathfromSvgElem(child, tag)[0].toOutline(strokeWidth, 'Round', 'Round'))
-            g |= bezierShape.GroupShape(shape)
+            paths = bezierShape.createPathfromSvgElem(child, tag)
+            if len(paths):
+                shape = bezierShape.BezierShape()
+                shape.extend(paths[0].toOutline(strokeWidth, 'Round', 'Round'))
+                g |= bezierShape.GroupShape(shape)
 
     newRoot.append(g.toShape().toSvgElement({ 'class': 'st0' }))
 
