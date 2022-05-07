@@ -5,14 +5,14 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<line class="st0" x1="60" y1="120" x2="180" y2="120"/>
-<line class="st0" x1="60" y1="420" x2="180" y2="420"/>
-<line class="st0" x1="540" y1="120" x2="660" y2="120"/>
-<line class="st0" x1="540" y1="420" x2="660" y2="420"/>
-<line class="st0" x1="540" y1="780" x2="660" y2="780"/>
-<path class="st0" d="M60,780c0-33.1,26.9-60,60-60h60"/>
-<path class="st0" d="M360,360c-33.1,0-60,26.9-60,60v60"/>
-<line class="st0" x1="120" y1="120" x2="120" y2="720"/>
-<line class="st0" x1="600" y1="120" x2="600" y2="780"/>
-<path class="st0" d="M360,60c33.1,0,60,26.9,60,60v600c0,66.3-53.7,120-120,120"/>
+<line class="st0" x1="60" y1="60" x2="180" y2="60"/>
+<line class="st0" x1="60" y1="360" x2="180" y2="360"/>
+<line class="st0" x1="540" y1="60" x2="660" y2="60"/>
+<line class="st0" x1="540" y1="360" x2="660" y2="360"/>
+<line class="st0" x1="540" y1="840" x2="660" y2="840"/>
+<path class="st0" d="M60,840c0-33.1,26.9-60,60-60h60"/>
+<line class="st0" x1="120" y1="60" x2="120" y2="780"/>
+<line class="st0" x1="600" y1="60" x2="600" y2="840"/>
+<path class="st0" d="M300,840c66.3,0,120-53.7,120-120V60"/>
+<path class="st0" d="M300,480v-60c0-33.1,26.9-60,60-60h60"/>
 </svg>
