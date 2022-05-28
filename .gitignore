@@ -2,3 +2,6 @@ font/*
 tool/tmp/*
 tool/testGlyph/*
 tool/glyphList.txt
+
+*glyph.json
+__pycache__
