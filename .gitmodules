@@ -1,3 +1,6 @@
 [submodule "clsvg"]
 	path = clsvg
 	url = https://github.com/chilingg/clsvg.git
+[submodule "hanzi-jiegou"]
+	path = hanzi-jiegou
+	url = https://github.com/chilingg/hanzi-jiegou
