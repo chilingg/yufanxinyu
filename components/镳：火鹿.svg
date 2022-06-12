@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 720 900" style="enable-background:new 0 0 720 900;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<line class="st0" x1="480" y1="61" x2="480" y2="121"/>
+<path class="st0" d="M300,61.6c0.3,32.9,27.1,59.4,60,59.4h239c33.5,0,60.5-27.5,60-61"/>
+<path class="st0" d="M420,121v240c0,33.1,26.9,60,60,60s60-26.9,60-60V121"/>
+<path class="st0" d="M360,481v120c0,33.1,26.9,60,60,60h60"/>
+<line class="st0" x1="360" y1="541" x2="480" y2="541"/>
+<path class="st0" d="M540,481v120c0,33.1,26.9,60,60,60h60"/>
+<line class="st0" x1="540" y1="541" x2="660" y2="541"/>
+<path class="st0" d="M300,181h300c33.1,0,60,26.9,60,60l0,0c0,33.1-26.9,60-60,60H360c-33.1,0-60,26.9-60,60v240
+	c0,33.1-26.9,60-60,60"/>
+<path class="st0" d="M240,840c33.1,0,60-26.9,60-60v-60"/>
+<path class="st0" d="M660,840c-33.1,0-60-26.9-60-60v-60"/>
+<path class="st0" d="M540,840c-33.1,0-60-26.9-60-60v-60"/>
+<path class="st0" d="M420,840c-33.1,0-60-26.9-60-60v-60"/>
+</svg>
