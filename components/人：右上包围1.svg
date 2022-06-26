@@ -5,6 +5,6 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M120,540h120c33.1,0,60,26.9,60,60v120c0,66.3,53.7,120,120,120"/>
-<path class="st0" d="M60,840c33.1,0,60-26.9,60-60V360"/>
+<path class="st0" d="M180,540h60c66.3,0,120,53.7,120,120"/>
+<path class="st0" d="M180,420v300c0,66.3-53.7,120-120,120"/>
 </svg>
