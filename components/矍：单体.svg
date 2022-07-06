@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 720 900" style="enable-background:new 0 0 720 900;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<circle class="st0" cx="540" cy="180" r="60"/>
+<circle class="st0" cx="540" cy="180" r="120"/>
+<circle class="st0" cx="180" cy="180" r="60"/>
+<circle class="st0" cx="180" cy="180" r="120"/>
+<path class="st0" d="M120,420.5h420c33.1,0,60,26.9,60,60"/>
+<path class="st0" d="M300,360.5c33.1,0,60,26.4,60,59.5l0,0v180"/>
+<path class="st0" d="M180,360c-33.1,0-60,26.9-60,60v180h480"/>
+<line class="st0" x1="120" y1="540.5" x2="540" y2="540.5"/>
+<line class="st0" x1="120" y1="480.5" x2="540" y2="480.5"/>
+<path class="st0" d="M120,660h480v60c0,33.1-26.9,60-60,60H60"/>
+<path class="st0" d="M180,720v60c0,33.1,26.9,60,60,60h420"/>
+</svg>

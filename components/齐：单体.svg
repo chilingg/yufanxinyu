@@ -8,11 +8,11 @@
 <line class="st0" x1="360" y1="60" x2="360" y2="120"/>
 <line class="st0" x1="60" y1="120" x2="660" y2="120"/>
 <path class="st0" d="M240,120c0,66.3,53.7,120,120,120s120-53.7,120-120"/>
-<circle class="st0" cx="180" cy="360" r="60"/>
-<circle class="st0" cx="540" cy="360" r="60"/>
+<circle class="st0" cx="180" cy="300" r="60"/>
+<circle class="st0" cx="540" cy="300" r="60"/>
 <line class="st0" x1="360" y1="240" x2="360" y2="480"/>
-<line class="st0" x1="180" y1="420" x2="180" y2="840"/>
-<line class="st0" x1="540" y1="420" x2="540" y2="840"/>
+<line class="st0" x1="180" y1="360" x2="180" y2="840"/>
+<line class="st0" x1="540" y1="360" x2="540" y2="840"/>
 <line class="st0" x1="180" y1="480" x2="540" y2="480"/>
 <line class="st0" x1="180" y1="600" x2="540" y2="600"/>
 </svg>

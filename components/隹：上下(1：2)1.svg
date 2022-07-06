@@ -6,9 +6,9 @@
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <path class="st0" d="M120,779.5h420c33.1,0,60,26.9,60,60"/>
-<path class="st0" d="M120,660h420c33.1,0,60,26.9,60,60"/>
-<path class="st0" d="M120,540h420c33.1,0,60,26.9,60,60"/>
-<path class="st0" d="M120,420.5h420c33.1,0,60,26.9,60,60"/>
-<path class="st0" d="M300,360.5c33.1,0,60,26.9,60,60l0,0v359"/>
+<path class="st0" d="M120,660h420"/>
+<path class="st0" d="M120,600h420"/>
+<path class="st0" d="M120,480.5h420c33.1,0,60,26.9,60,60"/>
+<path class="st0" d="M300,360.5c33.1,0,60,26.9,60,60v60v299"/>
 <path class="st0" d="M180,360c-33.1,0-60,26.9-60,60v420"/>
 </svg>

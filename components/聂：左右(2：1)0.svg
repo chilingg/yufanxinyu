@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 720 900" style="enable-background:new 0 0 720 900;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:47;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M120,60v300c0,33.1,26.9,60,60,60h180"/>
+<path class="st0" d="M360,480V240c0-33.1-26.9-60-60-60H120"/>
+<line class="st0" x1="60" y1="60" x2="420" y2="60"/>
+<line class="st0" x1="120" y1="300" x2="360" y2="300"/>
+<path class="st1" d="M60,540h120v60c0,66.3-53.7,120-120,120h0"/>
+<path class="st1" d="M60,660v60c0,66.3,53.7,120,120,120h0"/>
+<path class="st1" d="M300,540h120v60c0,66.3-53.7,120-120,120h0"/>
+<path class="st1" d="M300,660v60c0,66.3,53.7,120,120,120h0"/>
+</svg>
