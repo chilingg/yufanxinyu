@@ -1,6 +1,7 @@
 font/*
 tool/tmp/*
 tool/testGlyph/*
+tool/testChars/*
 tool/glyphList.txt
 *test.py
 
