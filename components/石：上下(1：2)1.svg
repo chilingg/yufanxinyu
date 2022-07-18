@@ -5,8 +5,8 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<line class="st0" x1="120" y1="360" x2="600" y2="360"/>
-<path class="st0" d="M300,480v240c0,66.3,53.7,120,120,120l0,0c66.3,0,120-53.7,120-120V480"/>
-<line class="st0" x1="300" y1="540" x2="540" y2="540"/>
-<path class="st0" d="M180,360c0,0,0,420,0,420c0,33.1-26.9,60-60,60"/>
+<path class="st0" d="M60,420h600"/>
+<path class="st0" d="M300,540v180c0,66.3,53.7,120,120,120s120-53.7,120-120V540"/>
+<path class="st0" d="M300,600h240"/>
+<path class="st0" d="M180,420v360c0,33.1-26.9,60-60,60"/>
 </svg>

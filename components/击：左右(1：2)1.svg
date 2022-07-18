@@ -6,7 +6,7 @@
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <path class="st0" d="M300,660v120c0,33.1,26.9,60,60,60h240c33.1,0,60-26.9,60-60V660"/>
-<line class="st0" x1="480" y1="840" x2="480" y2="60"/>
-<line class="st0" x1="300" y1="480" x2="660" y2="480"/>
-<line class="st0" x1="360" y1="240" x2="600" y2="240"/>
+<path class="st0" d="M480,840V60"/>
+<path class="st0" d="M300,480h360"/>
+<path class="st0" d="M300,240h360"/>
 </svg>

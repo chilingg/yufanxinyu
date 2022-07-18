@@ -6,6 +6,6 @@
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <path class="st0" d="M60,780V540c0-33.1,26.9-60,60-60s60,26.9,60,60v240"/>
-<path class="st0" d="M60,240v60c0,33.1,26.9,60,60,60s60-26.9,60-60v-60"/>
-<path class="st0" d="M180,60c-33.1,0-60,26.9-60,60c0,0,0,720,0,720"/>
+<path class="st0" d="M60,180v120c0,33.1,26.9,60,60,60s60-26.9,60-60V180"/>
+<path class="st0" d="M180,60c-33.1,0-60,26.9-60,60v720"/>
 </svg>

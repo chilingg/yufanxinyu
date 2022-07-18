@@ -5,12 +5,11 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<line class="st0" x1="60" y1="120" x2="240" y2="120"/>
-<line class="st0" x1="240" y1="60" x2="240" y2="180"/>
-<line class="st0" x1="480" y1="60" x2="480" y2="180"/>
-<line class="st0" x1="660" y1="120" x2="480" y2="120"/>
-<path class="st0" d="M600,360H120c-33.1,0-60-26.9-60-60l0,0c0-33.1,26.9-60,60-60h480c33.1,0,60,26.9,60,60l0,0
-	C660,333.1,633.1,360,600,360z"/>
-<circle class="st0" cx="360" cy="300" r="60"/>
-<path class="st0" d="M60,480c0-33.1,26.9-60,60-60h480c33.1,0,60,26.9,60,60"/>
+<path class="st0" d="M60,120h180"/>
+<path class="st0" d="M240,60v120"/>
+<path class="st0" d="M480,60v120"/>
+<path class="st0" d="M660,120H480"/>
+<path class="st0" d="M600,300H120c-33.1,0-60-26.9-60-60s26.9-60,60-60h480c33.1,0,60,26.9,60,60S633.1,300,600,300z"/>
+<path class="st0" d="M360,180c33.1,0,60,26.9,60,60s-26.9,60-60,60s-60-26.9-60-60S326.9,180,360,180z"/>
+<path class="st0" d="M60,420c0-33.1,26.9-60,60-60h480c33.1,0,60,26.9,60,60"/>
 </svg>

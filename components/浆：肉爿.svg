@@ -5,13 +5,13 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<line class="st0" x1="60" y1="300" x2="180" y2="300"/>
-<line class="st0" x1="180" y1="420" x2="180" y2="60"/>
+<line class="st0" x1="60" y1="300" x2="240" y2="300"/>
+<line class="st0" x1="240" y1="420" x2="240" y2="60"/>
 <path class="st0" d="M60,420c33.1,0,60-26.9,60-60v-60"/>
-<path class="st0" d="M300,180c0-66.3,53.7-120,120-120h120c66.3,0,120,53.7,120,120l0,0c0,66.3-53.7,120-120,120h-60
+<path class="st0" d="M360,180c0-66.3,53.7-120,120-120h60c66.3,0,120,53.7,120,120l0,0c0,66.3-53.7,120-120,120h-60
 	c-66.3,0-120,53.7-120,120"/>
 <line class="st0" x1="540" y1="60" x2="540" y2="240"/>
-<line class="st0" x1="420" y1="60" x2="420" y2="240"/>
-<line class="st0" x1="180" y1="180" x2="60" y2="180"/>
+<line class="st0" x1="480" y1="60" x2="480" y2="240"/>
+<line class="st0" x1="240" y1="180" x2="60" y2="180"/>
 <line class="st0" x1="120" y1="60" x2="120" y2="180"/>
 </svg>

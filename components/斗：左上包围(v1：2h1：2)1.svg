@@ -6,7 +6,7 @@
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
 <line class="st0" x1="300" y1="660" x2="660" y2="660"/>
-<line class="st0" x1="600" y1="360" x2="600" y2="840"/>
+<line class="st0" x1="600" y1="300" x2="600" y2="840"/>
 <line class="st0" x1="360" y1="420" x2="480" y2="420"/>
 <line class="st0" x1="360" y1="540" x2="480" y2="540"/>
 </svg>

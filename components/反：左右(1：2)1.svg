@@ -5,7 +5,7 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M420,240h120c33.1,0,60,26.9,60,60v300c0,66.3-53.7,120-120,120l-120,0"/>
-<path class="st0" d="M420,420c33.1,0,60,26.9,60,60v240c0,66.3,53.7,120,120,120h60"/>
-<path class="st0" d="M660,60H420c-66.3,0-120,53.7-120,120v600c0,33.2-26.9,60-60,60"/>
+<path class="st0" d="M420,300h120c33.1,0,60,26.9,60,60v240c0,66.3-53.7,120-120,120H360"/>
+<path class="st0" d="M360,480c33.1,0,60,26.9,60,60v180c0,66.3,53.7,120,120,120h120"/>
+<path class="st0" d="M660,60c0,33.1-26.9,60-60,60H420c-66.3,0-120,53.7-120,120v540c0,33.2-26.9,60-60,60"/>
 </svg>

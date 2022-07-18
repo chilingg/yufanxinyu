@@ -5,13 +5,10 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<line class="st0" x1="240" y1="660" x2="480" y2="660"/>
-<path class="st0" d="M420,840H300c-99.4,0-180-80.6-180-180l0,0c0-99.4,80.6-180,180-180h120c99.4,0,180,80.6,180,180l0,0
-	C600,759.4,519.4,840,420,840z"/>
-<path class="st0" d="M240,60v60c0,33.1-26.9,60-60,60H60"/>
+<path class="st0" d="M240,60v60c0,33.1-26.9,60-60,60h-60"/>
 <path class="st0" d="M480,60v60c0,33.1-26.9,60-60,60H300c-33.1,0-60-26.9-60-60"/>
-<path class="st0" d="M480,120c0,33.1,26.9,60,60,60h120"/>
-<path class="st0" d="M240,240v60c0,33.1-26.9,60-60,60H60"/>
+<path class="st0" d="M480,120c0,33.1,26.9,60,60,60h60"/>
+<path class="st0" d="M240,240v60c0,33.1-26.9,60-60,60h-60"/>
 <path class="st0" d="M480,240v60c0,33.1-26.9,60-60,60H300c-33.1,0-60-26.9-60-60"/>
-<path class="st0" d="M480,300c0,33.1,26.9,60,60,60h120"/>
+<path class="st0" d="M480,300c0,33.1,26.9,60,60,60h60"/>
 </svg>

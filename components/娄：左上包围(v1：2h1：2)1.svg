@@ -7,11 +7,11 @@
 </style>
 <path class="st0" d="M300,480c0,33.1,26.9,60,60,60"/>
 <path class="st0" d="M360,300c-33.1,0-60,26.9-60,60"/>
-<line class="st0" x1="300" y1="420" x2="660" y2="420"/>
-<line class="st0" x1="480" y1="300" x2="480" y2="540"/>
-<line class="st0" x1="660" y1="300" x2="660" y2="360"/>
-<line class="st0" x1="660" y1="480" x2="660" y2="540"/>
-<line class="st0" x1="300" y1="660" x2="660" y2="660"/>
-<path class="st0" d="M600,840c-99.4,0-180-80.6-180-180v-60"/>
-<path class="st0" d="M360,840c99.4,0,180-80.6,180-180"/>
+<path class="st0" d="M300,420h360"/>
+<path class="st0" d="M480,300v240"/>
+<path class="st0" d="M600,300v60"/>
+<path class="st0" d="M600,480v60"/>
+<path class="st0" d="M300,660h360"/>
+<path class="st0" d="M660,840h-60c-99.4,0-180-80.6-180-180v-60"/>
+<path class="st0" d="M300,840h60c99.4,0,180-80.6,180-180"/>
 </svg>

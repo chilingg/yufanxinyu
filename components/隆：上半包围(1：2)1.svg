@@ -5,15 +5,16 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M240,360h-60c-33.1,0-60,26.9-60,60v420"/>
-<path class="st0" d="M120,480h120v60c0,33.1-26.9,60-60,60h-60"/>
-<path class="st0" d="M120,660h120v60c0,33.1-26.9,60-60,60h-60"/>
-<path class="st0" d="M420,300v60c0,33.1-26.9,60-60,60"/>
-<path class="st0" d="M420,360h180v60c0,33.1-26.9,60-60,60H360"/>
-<path class="st0" d="M480,420v60c0,33.1,26.9,60,60,60h60"/>
-<line class="st0" x1="360" y1="540" x2="420" y2="540"/>
+<path class="st0" d="M240,540v60c0,33.1-26.9,60-60,60h-60"/>
+<path class="st0" d="M420,360v60c0,33.1-26.9,60-60,60"/>
+<path class="st0" d="M420,420h180v60c0,33.1-26.9,60-60,60H360"/>
+<path class="st0" d="M480,480v60c0,33.1,26.9,60,60,60h60"/>
+<path class="st0" d="M480,660v180"/>
+<path class="st0" d="M360,840h240"/>
+<path class="st0" d="M360,780h240"/>
 <path class="st0" d="M360,660c0,33.1,26.9,60,60,60h120c33.1,0,60-26.9,60-60"/>
-<line class="st0" x1="480" y1="600" x2="480" y2="840"/>
-<line class="st0" x1="360" y1="840" x2="600" y2="840"/>
-<line class="st0" x1="360" y1="780" x2="600" y2="780"/>
+<line class="st0" x1="120" y1="540" x2="300" y2="540"/>
+<path class="st0" d="M240,720v60c0,33.1-26.9,60-60,60h-60V480c0-33.1,26.9-60,60-60l0,0h60"/>
+<line class="st0" x1="120" y1="720" x2="300" y2="720"/>
+<line class="st0" x1="360" y1="600" x2="420" y2="600"/>
 </svg>
