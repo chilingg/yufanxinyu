@@ -1,42 +1,73 @@
 import os
+import sys
+import json
+import re
 
 FILE_PATH = os.path.dirname(os.path.realpath(__file__))
-SOURCE_PATH = os.path.join(FILE_PATH, '../source')
+PROJECT_PATH = os.path.dirname(FILE_PATH)
 
-def start():
-    fileList = []
-    temp = os.listdir(SOURCE_PATH)
-    for f in temp:
-        if f[-4:] == '.svg':
-            fileList.append(os.path.splitext(f)[0])
-    temp = None
-    print("SVG source file: %d" % len(fileList))
+def checkChars():
+    def loadJson(file):
+        with open(file, 'r', encoding='utf-8') as f:
+            return json.load(f)
 
-    n = 0
-    with open(os.path.join(FILE_PATH, '国标一级汉字.txt'), 'r', encoding='utf-8') as f:
-        list = f.read()
-    for c in list:
-        if c in fileList:
-            n += 1
-    print("国标一级汉字 %d/%d" % (n, len(list)))
-        
-    n = 0
-    with open(os.path.join(FILE_PATH, '国标二级汉字.txt'), 'r', encoding='utf-8') as f:
-        list = f.read()
-    for c in list:
-        if c in fileList:
-            n += 1
-    print("国标二级汉字 %d/%d" % (n, len(list)))
-    
-    with open(os.path.join(FILE_PATH, 'glyphList.txt'), 'w', encoding='utf-8') as tFile:
-        glyphNameList = str()
-        fileList.sort()
-        for c in fileList:
-            if c.isdecimal():
-                glyphNameList += chr(int(c))
+    TEST_FILE_PATH = os.path.join(FILE_PATH, 'testChars')
+
+    if not os.path.exists(TEST_FILE_PATH):
+        os.mkdir(TEST_FILE_PATH)
+
+    LIB = os.path.join(PROJECT_PATH, 'clsvg')
+    if os.path.exists(LIB):
+        sys.path.append(LIB)
+
+    from clsvg import svgfile
+    from clsvg import bezierShape
+
+    compPath = os.path.join(FILE_PATH, '../components')
+    glyphTable = loadJson(os.path.join(PROJECT_PATH, 'glyph.json'))
+    fileList = os.listdir(compPath)
+    charsList = {}
+
+    count = 0
+    for comp, fmts in glyphTable.items():
+        for fmt, chars in fmts.items():
+            fileName = '%s：%s.svg' % (comp, fmt)
+            fileName = re.sub('>', '》',  '%s：%s.svg' % (comp, fmt))
+            if fileName not in fileList:
+                continue
             else:
-                glyphNameList += c
+                count += 1
+                #print('(%d/%d)Process %s ...' % (count, len(fileList), fileName))
 
-        tFile.write(glyphNameList)
+            tree = svgfile.parse(os.path.join(compPath, fileName))
+            root = tree.getroot()
 
-start()
+            shape = []
+            for child in root:
+                tag = svgfile.unPrefix(child.tag)
+                if tag != 'style':
+                    shape.append(bezierShape.createPathfromSvgElem(child, tag))
+
+            for char in chars:
+                if char not in charsList:
+                    charsList[char] = []
+                charsList[char].extend(shape)
+
+    count = 0
+    for char, shape in charsList.items():
+        count += 1
+        #print('(%d/%d)Generating %s ...' % (count, len(charsList), char))
+
+        newRoot = svgfile.ET.Element(root.tag, root.attrib)
+        newRoot.text = '\n'
+        styleElem = svgfile.ET.Element('style', { 'type': 'text/css' })
+        styleElem.text = '.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}'
+        styleElem.tail = '\n'
+        newRoot.append(styleElem)
+        for path in shape:
+            newRoot.append(path.toSvgElement({ 'class': 'st0' }))
+        newTree = svgfile.ET.ElementTree(newRoot)
+        newTree.write(os.path.join(TEST_FILE_PATH, char + '.svg'), encoding = "utf-8", xml_declaration = True)
+
+if __name__ == '__main__':
+    checkChars()
