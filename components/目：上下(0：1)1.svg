@@ -5,7 +5,7 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#000000;stroke-width:48;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M360,840L360,840c-99.4,0-180-80.6-180-180V420c0-99.4,80.6-180,180-180h0c99.4,0,180,80.6,180,180v240
+<path class="st0" d="M360,840L360,840c-99.4,0-180-80.6-180-180V420c0-99.4,80.6-180,180-180l0,0c99.4,0,180,80.6,180,180v240
 	C540,759.4,459.4,840,360,840z"/>
-<circle class="st0" cx="360" cy="540" r="180"/>
+<circle class="st0" cx="360" cy="540" r="120"/>
 </svg>
