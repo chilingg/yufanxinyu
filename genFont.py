@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import re
+import copy
 
 PROJECT_PATH = os.path.dirname(os.path.realpath(__file__))
 COMP_PATH = os.path.join(PROJECT_PATH, 'components')
@@ -11,6 +12,7 @@ FONT_FILE_PATH = os.path.join(PROJECT_PATH, 'font')
 
 FONT_WIDTH = 720
 LITTLE_F_WIDTH = 360
+FONT_VARSION = '1.0'
 
 def loadJson(file):
     with open(file, 'r', encoding='utf-8') as f:
@@ -74,6 +76,12 @@ def importGlyph(sfdFile, strokeWidth):
         'space': 'preserve'
         }
 
+    font = fontforge.open(sfdFile)
+    font.version = FONT_VARSION
+    font.selection.all()
+    font.clear()
+    font.createChar(32).width = LITTLE_F_WIDTH #空格
+
     glyphTable = loadJson(os.path.join(PROJECT_PATH, 'glyph.json'))
     charsList = {}
     errorList = {}
@@ -102,15 +110,10 @@ def importGlyph(sfdFile, strokeWidth):
                     charsList[char] = bezierShape.GroupShape()
                 if char not in errorList:
                     try:
-                        charsList[char] |= g
+                        charsList[char] |= copy.deepcopy(g)
                     except Exception as e:
                         errorList[char] = e
                         print(char + ' is error!')
-
-    font = fontforge.open(sfdFile)
-    font.selection.all()
-    #font.clear()
-    font.createChar(32).width = LITTLE_F_WIDTH #空格
 
     count = 0
     num = len(charsList)
@@ -143,7 +146,6 @@ def importGlyph(sfdFile, strokeWidth):
                     char = chr(code)
                     if(code != 64):
                         width = LITTLE_F_WIDTH
-                    sNum += 1
 
             print("(%d/%d)%s: import symbol glyph '%s' %d from %s" % (count, sNum, font.fontname, char, code, filename))
             
